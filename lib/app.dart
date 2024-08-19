@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:meteorello/pages/home/home_page.dart';
 
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(),
+    return MaterialApp(
+      home: HomePage(),
     );
   }
 }
