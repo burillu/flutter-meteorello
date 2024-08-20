@@ -131,4 +131,76 @@ const weatherData = [
       ),
     ],
   ),
+  CityModel(
+    name: "Casnate con Bernate",
+    temperature: 22,
+    backgroundImageUrl:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bernate_panorama_%28Casnate_con_Bernate%29.jpg/1200px-Bernate_panorama_%28Casnate_con_Bernate%29.jpg",
+    sevenDaysForecast: [
+      DayForecastModel(
+        name: "Oggi",
+        temperature: 23,
+      ),
+      DayForecastModel(
+        name: "12",
+        temperature: 22,
+      ),
+      DayForecastModel(
+        name: "13",
+        temperature: 26,
+      ),
+      DayForecastModel(
+        name: "14",
+        temperature: 30,
+      ),
+      DayForecastModel(
+        name: "15",
+        temperature: 29,
+      ),
+      DayForecastModel(
+        name: "16",
+        temperature: 22,
+      ),
+      DayForecastModel(
+        name: "17",
+        temperature: 16,
+      ),
+    ],
+  ),
+  CityModel(
+    name: "Assisi",
+    temperature: 22,
+    backgroundImageUrl:
+        "https://www.thetrainline.com/cms/media/1417/italy-basilica-of-st-francis-of-assisi.jpg?mode=crop&width=860&height=574&quality=70",
+    sevenDaysForecast: [
+      DayForecastModel(
+        name: "Oggi",
+        temperature: 23,
+      ),
+      DayForecastModel(
+        name: "12",
+        temperature: 22,
+      ),
+      DayForecastModel(
+        name: "13",
+        temperature: 26,
+      ),
+      DayForecastModel(
+        name: "14",
+        temperature: 30,
+      ),
+      DayForecastModel(
+        name: "15",
+        temperature: 29,
+      ),
+      DayForecastModel(
+        name: "16",
+        temperature: 22,
+      ),
+      DayForecastModel(
+        name: "17",
+        temperature: 16,
+      ),
+    ],
+  ),
 ];
